@@ -1,0 +1,251 @@
+body {
+  background-color: #e4002b;
+  color: white;
+  font-family: sans-serif;
+}
+
+.heading {
+  margin: 100px;
+}
+.heading h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: small;
+  letter-spacing: 4px;
+  font-family: "NTR", sans-serif;
+}
+.heading hr {
+  border: 0;
+  height: 4px;
+  width: 200px;
+  background: white;
+}
+
+.leica {
+  position: absolute;
+  left: 50%;
+  margin-left: -185px;
+  top: 50%;
+  margin-top: -115px;
+  width: 400px;
+  height: 230px;
+  background-color: #474747;
+  box-shadow: inset -40px 0 0 0 rgba(0, 0, 0, 0.3), 0 30px 30px rgba(0, 0, 0, 0.3);
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  border-radius: 20px;
+}
+
+.winder {
+  position: absolute;
+  top: 0px;
+  left: 365px;
+  z-index: -1;
+  width: 50px;
+  height: 20px;
+  background: #1a1a1a;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  box-shadow: inset -4px 0 0 0 rgba(0, 0, 0, 0.3);
+}
+
+.accent {
+  position: absolute;
+  left: 17px;
+  width: 15px;
+  height: 10px;
+  background: gray;
+  box-shadow: inset -4px 0 0 0 rgba(0, 0, 0, 0.3);
+}
+
+.dial {
+  position: absolute;
+  top: 5px;
+  left: 30px;
+  width: 50px;
+  height: 15px;
+  background: #1a1a1a;
+  box-shadow: inset -4px 0 0 0 rgba(0, 0, 0, 0.3);
+}
+
+.shutter {
+  position: absolute;
+  top: 5px;
+  left: 120px;
+  width: 50px;
+  height: 15px;
+  background: #1a1a1a;
+  box-shadow: inset -4px 0 0 0 rgba(0, 0, 0, 0.3);
+}
+
+.release {
+  position: absolute;
+  top: 0px;
+  left: 42px;
+  width: 25px;
+  height: 5px;
+  background: gray;
+}
+
+.opening {
+  top: -4px;
+  position: absolute;
+  width: 180px;
+  height: 24px;
+  background: #e4002b;
+}
+
+.leftlug {
+  position: absolute;
+  top: 90px;
+  left: -8px;
+  height: 25px;
+  width: 20px;
+  border-radius: 90px 30px 30px 90px;
+  -moz-border-radius: 90px 30px 30px 90px;
+  -webkit-border-radius: 90px 30px 30px 90px;
+  background: #bdbdbd;
+  box-shadow: inset -4px 0 0 0 rgba(0, 0, 0, 0.3);
+}
+
+.rightlug {
+  position: absolute;
+  top: 90px;
+  left: 392px;
+  height: 25px;
+  width: 20px;
+  border-radius: 90px 30px 30px 90px;
+  -moz-border-radius: 90px 30px 30px 90px;
+  -webkit-border-radius: 30px 90px 90px 30px;
+  background: #bdbdbd;
+  box-shadow: inset -4px 0 0 0 rgba(0, 0, 0, 0.3);
+}
+
+.top {
+  position: absolute;
+  width: 400px;
+  height: 80px;
+  background: #141414;
+  -moz-border-radius: 20px 20px 0 0;
+  -webkit-border-radius: 20px 20px 0 0;
+  border-radius: 20px 20px 0 0;
+  box-shadow: inset -40px 0 0 0 rgba(0, 0, 0, 0.3);
+}
+
+.bottom {
+  position: absolute;
+  top: 210px;
+  width: 400px;
+  height: 20px;
+  background: #141414;
+  -moz-border-radius: 0 0 10px 10px;
+  -webkit-border-radius: 0 0 10px 10px;
+  border-radius: 0 0 10px 10px;
+  box-shadow: inset -40px 0 0 0 rgba(0, 0, 0, 0.3);
+}
+
+.dot {
+  position: absolute;
+  top: 20px;
+  left: 200px;
+  z-index: 3;
+  width: 36px;
+  height: 4px;
+  width: 40px;
+  height: 40px;
+  background: #e4002b;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  border-radius: 20px;
+  box-shadow: inset -4px 0 0 0 rgba(0, 0, 0, 0.3);
+}
+
+.letters {
+  position: absolute;
+  top: 17px;
+  left: 10px;
+  height: 7px;
+  width: 20px;
+  background: white;
+}
+
+.lens {
+  position: absolute;
+  top: 73px;
+  left: 145px;
+  z-index: 1;
+}
+
+.inner {
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  z-index: 2;
+  width: 155px;
+  height: 155px;
+  background: gray;
+  -moz-border-radius: 160px;
+  -webkit-border-radius: 160px;
+  border-radius: 150px;
+  box-shadow: inset -4px 0 0 0 rgba(0, 0, 0, 0.3);
+}
+
+.outter {
+  position: absolute;
+  z-index: 3;
+  width: 145px;
+  height: 145px;
+  background: #1a1a1a;
+  -moz-border-radius: 150px;
+  -webkit-border-radius: 150px;
+  border-radius: 140px;
+}
+
+.middle {
+  position: absolute;
+  top: 7.25px;
+  left: 7.25px;
+  z-index: 4;
+  width: 130px;
+  height: 130px;
+  background: #000000;
+  -moz-border-radius: 130px;
+  -webkit-border-radius: 130px;
+  border-radius: 130px;
+  box-shadow: inset -4px 0 0 0 rgba(0, 0, 0, 0.3);
+}
+
+.meter {
+  position: absolute;
+  top: 20px;
+  left: 255px;
+  z-index: 3;
+  height: 4px;
+  width: 50px;
+  height: 40px;
+  background: gray;
+  box-shadow: inset -4px 0 0 0 rgba(0, 0, 0, 0.3);
+}
+
+.viewfinder {
+  position: absolute;
+  top: 20px;
+  left: 320px;
+  z-index: 3;
+  height: 4px;
+  width: 60px;
+  height: 45px;
+  background: #bdbdbd;
+  box-shadow: inset -20px 0 0 0 rgba(0, 0, 0, 0.3);
+}
+
+.focus {
+  position: absolute;
+  top: 30px;
+  left: 100px;
+  z-index: 3;
+  width: 30px;
+  height: 20px;
+  background: #1a1a1a;
+  box-shadow: inset -4px 0 0 0 rgba(0, 0, 0, 0.3);
+}
